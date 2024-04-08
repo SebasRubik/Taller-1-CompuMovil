@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Favoritos">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/titulofavoritos"
+        android:text="@string/tfavoritos"
+        />
+
+    <ListView
+        android:id="@+id/listafavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulofavoritos"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

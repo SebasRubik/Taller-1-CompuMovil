@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleDestino">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/nombreDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_del_destino"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/paisDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pa_s_del_destino"
+            android:layout_below="@id/nombreDestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/categoriadestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categor_a_del_destino"
+            android:layout_below="@id/paisDestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/plandestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_del_destino"
+            android:layout_below="@id/categoriadestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/preciodestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_del_destino"
+            android:layout_below="@id/plandestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/temperaturaActual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Temperatura_Actual"
+            android:layout_below="@id/preciodestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/bagfavoritos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/a_adir_a_favoritos"
+        android:layout_margin="30dp" />
+</RelativeLayout>

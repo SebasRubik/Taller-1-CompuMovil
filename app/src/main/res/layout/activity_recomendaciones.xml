@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recomendaciones">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/rnombreDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_del_destino"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/rpaisDestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_del_destino"
+            android:layout_below="@id/rnombreDestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rcategoriadestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categor_a_del_destino"
+            android:layout_below="@id/rpaisDestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rplandestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plan_del_destino"
+            android:layout_below="@id/rcategoriadestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rpreciodestino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/precio_del_destino"
+            android:layout_below="@id/rplandestino"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

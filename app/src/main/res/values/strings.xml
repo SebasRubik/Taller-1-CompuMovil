@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="explorar_destinos">Explorar Destinos</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="recomendaciones">Recomendaciones</string>
+    <string name="nombre_del_destino">Nombre del destino</string>
+    <string name="pa_s_del_destino">País del destino</string>
+    <string name="categor_a_del_destino">Categoría del destino</string>
+    <string name="plan_del_destino">Plan del destino</string>
+    <string name="precio_del_destino">Precio del destino</string>
+    <string name="a_adir_a_favoritos">Añadir a favoritos</string>
+    <string name="Temperatura_Actual">Temperatura Actual</string>
+    <string name="tfavoritos">Favoritos</string>
+</resources>
+
+
